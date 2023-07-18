@@ -37,6 +37,13 @@ li{
     padding: 15px;
 }
 
+button{
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
 .sfondo{
     background-color:#255ee9;
     height: 500px;
