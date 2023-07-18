@@ -15,7 +15,7 @@ body{
 }
 
 .container{
-    background-color: orange;
+    background-color: #255ee9;
     width: 90%;
     height: 60px;
     margin: 0 auto;
@@ -31,6 +31,8 @@ body{
     background-color:#255ee9;
     height: 500px;
     justify-content: center;
+    background-image: url(img/jumbo.png);
+    background-size: cover;
 }
 
 .presentazione{
