@@ -33,7 +33,7 @@ ul, a{
     color: white;
 }
 
-li{
+.link li{
     padding: 15px;
 }
 
@@ -163,25 +163,45 @@ section{
 /*Footer*/
 
 .prova{
-    padding-top: 15px;
-    background-color: green;
+    padding: 70px 0px;
+    background-color: black;
     height: 550px;
     width: 100%;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .principale{
-    width: 40%;
     height: 100%;
-    background-color: pink;
+    
+}
+
+.no{
+    font-size: 30px;
+}
+
+#italia{
+    width: 25px;
+    padding-top: 20px;
+}
+
+span{
+    color: white;
+}
+
+.principale h2, .riga{
+    color: blue;
 }
 
 .riga{
-    width: 15%;
+    
     height: 100%;
-    background-color: coral;
-    border: 1px solid black;
 }
+
+.riga li{
+    margin-top: 20px;
+}
+
+
 
 .finale{
     background-color: black;
@@ -192,7 +212,12 @@ section{
 }
 
 .conclusione{
-    background-color: violet;
     width: 1000px;
     height: 100%;
+    border-top: 2px solid #255ee9;
+    justify-content: space-between;
+}
+
+.conclusione img{
+    width: 130px;
 }
