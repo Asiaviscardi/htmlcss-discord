@@ -70,7 +70,7 @@ button{
     text-align: center;
 }
 
-.presentazione p{
+.presentazione p, .test p{
     font-size: 22px;
     text-align: center;
     line-height: 35px;
@@ -108,7 +108,7 @@ section{
     width: 100%;
 }
 
-.piccolo h1{
+.piccolo h1, .test h1{
     font-size: 50px;
     padding-bottom: 20px;
 }
@@ -123,6 +123,42 @@ section{
     padding-top: 26px;
 
 }
+
+.test{
+    text-align: center;
+    padding:0px 164px;
+    font-size: large;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;  
+    width: 100%;
+}
+
+.stelle{
+    background-image: url(img/stars.svg);
+    height: 200px;
+    width: 600px;
+    background-repeat: no-repeat;
+    margin-left: 400px;
+    background-size: contain;
+    text-align: center;
+}
+
+.stelle h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.blu{
+    background-color: #255ee9;
+    color: white;
+    margin-top: 30px;
+    
+}
+
 
 /*Footer*/
 
