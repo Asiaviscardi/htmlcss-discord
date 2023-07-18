@@ -53,12 +53,25 @@ button{
 }
 
 .presentazione{
-    background-color: orange;
     height: 400px;
     width: 750px;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+p{
+    font-size: 22px;
+    text-align: center;
+    line-height: 35px;
 }
 
 /*main*/
