@@ -42,6 +42,8 @@ button{
     border-radius: 20px;
     border: none;
     cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
 }
 
 .sfondo{
@@ -72,6 +74,16 @@ p{
     font-size: 22px;
     text-align: center;
     line-height: 35px;
+}
+
+.presentazione button{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.nero{
+    background-color: black;
+    color: white;
 }
 
 /*main*/
