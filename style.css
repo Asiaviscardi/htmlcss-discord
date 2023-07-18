@@ -27,6 +27,16 @@ body{
     display: flex;
 }
 
+ul, a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    padding: 15px;
+}
+
 .sfondo{
     background-color:#255ee9;
     height: 500px;
