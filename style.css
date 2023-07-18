@@ -63,14 +63,14 @@ button{
     color: white;
 }
 
-h1{
+.presentazione h1{
     font-size: 50px;
     padding-bottom: 20px;
     padding-top: 100px;
     text-align: center;
 }
 
-p{
+.presentazione p{
     font-size: 22px;
     text-align: center;
     line-height: 35px;
@@ -91,27 +91,37 @@ p{
 section{
     padding: 50px 0px;
     justify-content: center;
-    background-color: aquamarine;
-
 }
 
 .blocco{
     height: 500px;
     width: 1000px;
-    background-color: blueviolet;
     display: flex;
 }
 
 .grande{
     width: 60%;
     height: 100%;
-    background-color: red;
+}
+
+.grande img{
+    width: 100%;
+}
+
+.piccolo h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.piccolo p{
+    font-size: 22px;
 }
 
 .piccolo{
     width: 40%;
     height: 100%;
-    background-color: brown;
+    padding-top: 26px;
+
 }
 
 /*Footer*/
