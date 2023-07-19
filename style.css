@@ -33,6 +33,10 @@ ul, a{
     color: white;
 }
 
+ul a:hover{
+    color: #4d89da;
+}
+
 .link li{
     padding: 15px;
 }
@@ -63,14 +67,14 @@ button{
     color: white;
 }
 
-.presentazione h1{
+.presentazione h2{
     font-size: 50px;
     padding-bottom: 20px;
     padding-top: 100px;
     text-align: center;
 }
 
-.presentazione p, .test p{
+.presentazione p, .specifiche p{
     font-size: 22px;
     text-align: center;
     line-height: 35px;
@@ -107,8 +111,14 @@ section{
 .grande img{
     width: 100%;
 }
+    
+.piccolo{
+    width: 40%;
+    height: 100%;
+    padding-top: 26px;
+}
 
-.piccolo h1, .test h1{
+.piccolo h2, .specifiche h2{
     font-size: 50px;
     padding-bottom: 20px;
 }
@@ -117,14 +127,7 @@ section{
     font-size: 22px;
 }
 
-.piccolo{
-    width: 40%;
-    height: 100%;
-    padding-top: 26px;
-
-}
-
-.test{
+.specifiche{
     text-align: center;
     padding:0px 164px;
     font-size: large;
@@ -146,54 +149,65 @@ section{
     text-align: center;
 }
 
-.stelle h1{
+.stelle h2{
     text-align: center;
     padding-top: 30px;
     font-size: 30px;
 }
 
 .blu{
-    background-color: #255ee9;
+    background-color: #7289da;
     color: white;
     margin-top: 30px;
-    
 }
-
 
 /*Footer*/
 
-.prova{
+.ainfo{
     padding: 70px 0px;
     background-color: black;
     height: 550px;
-    width: 100%;
     justify-content: space-around;
 }
 
 .principale{
     height: 100%;
-    
+    padding-left: 110px;
 }
 
-.no{
+.principale h2, .riga{
+    color: #7289da;
+}
+
+.tit{
     font-size: 30px;
+}
+
+.stato{
+    padding-top: 30px;   
 }
 
 #italia{
     width: 25px;
-    padding-top: 20px;
+    height: 18px;
+    margin-right: 5px;
 }
 
 span{
     color: white;
+    margin-bottom: 20px;
 }
 
-.principale h2, .riga{
-    color: blue;
+#icone{
+    font-size: large;
+}
+
+.fa-brands{
+    margin-right: 10px;
+    cursor: pointer;
 }
 
 .riga{
-    
     height: 100%;
 }
 
@@ -201,10 +215,12 @@ span{
     margin-top: 20px;
 }
 
-
+.pad{
+    padding-right: 127px;
+}
 
 .finale{
-    background-color: black;
+    background-color: #23272a;
     height: 100px;
     width: 100%;
     justify-content: center;
@@ -214,10 +230,16 @@ span{
 .conclusione{
     width: 1000px;
     height: 100%;
-    border-top: 2px solid #255ee9;
+    border-top: 1px solid #7289da;
     justify-content: space-between;
 }
 
 .conclusione img{
     width: 130px;
+}
+
+.diverso{
+    margin-top: 24px;
+    height: 30px;
+    padding: 0px 16px; 
 }
